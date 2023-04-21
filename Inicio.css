@@ -650,14 +650,21 @@
     margin-bottom: 0;
   }
 
+  .u-section-2 .u-layout-cell-6 {
+    min-height: 367px;
+  }
+
   .u-section-2 .u-text-12 {
-    margin-left: 13px;
-    margin-right: 13px;
+    width: auto;
+    margin-left: 2px;
+    margin-right: 2px;
   }
 
   .u-section-2 .u-text-13 {
+    width: auto;
     margin-left: 13px;
     margin-right: 13px;
+    margin-bottom: 0;
   }
 }
 
@@ -716,6 +723,10 @@
   .u-section-2 .u-text-11 {
     margin-left: 9px;
     margin-right: 9px;
+  }
+
+  .u-section-2 .u-layout-cell-6 {
+    min-height: 284px;
   }
 
   .u-section-2 .u-text-12 {
@@ -789,7 +800,7 @@
     margin-right: 6px;
   }
 } .u-section-3 {
-  background-image: linear-gradient(0deg, rgba(1,114,178,0.3), rgba(1,114,178,0.3)), url("https://assets.nicepagecdn.com/3ad9e2bf/4630524/images/top-view-career-guidance-items-dentists.jpg");
+  background-image: linear-gradient(0deg, rgba(1,114,178,0.3), rgba(1,114,178,0.3)), url("images/top-view-career-guidance-items-dentists.jpg");
 }
 
 .u-section-3 .u-sheet-1 {
@@ -1006,7 +1017,7 @@
     margin-bottom: 30px;
   }
 }.u-section-5 .u-sheet-1 {
-  min-height: 425px;
+  min-height: 461px;
 }
 
 .u-section-5 .u-group-1 {
@@ -1031,17 +1042,17 @@
 }
 
 .u-section-5 .u-layout-cell-1 {
-  min-height: 333px;
+  min-height: 400px;
 }
 
 .u-section-5 .u-container-layout-2 {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .u-section-5 .u-text-2 {
   font-size: 1.5rem;
-  margin: 20px 0 0;
+  margin: 20px 15px 0;
 }
 
 .u-section-5 .u-text-3 {
@@ -1050,22 +1061,24 @@
 }
 
 .u-section-5 .u-text-4 {
-  width: 247px;
-  margin: 60px auto 0;
+  font-size: 1rem;
+  margin: 29px 35px 0 46px;
 }
 
 .u-section-5 .u-layout-cell-2 {
-  min-height: 333px;
+  min-height: 400px;
 }
 
 .u-section-5 .u-container-layout-3 {
-  padding-right: 30px;
+  padding: 0 28px 0 0;
 }
 
 .u-section-5 .u-image-1 {
-  width: 285px;
-  height: 284px;
-  margin: 0 auto 0 56px;
+  width: 294px;
+  height: 294px;
+  background-image: url("images/IMG-20230419-WA0000.jpg");
+  background-position: 50% 29.05%;
+  margin: 20px auto 0 36px;
 }
 
 @media (max-width: 1199px) {
@@ -1084,11 +1097,6 @@
     padding-right: 16px;
   }
 
-  .u-section-5 .u-container-layout-2 {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
   .u-section-5 .u-text-2 {
     position: relative;
   }
@@ -1097,13 +1105,15 @@
     position: relative;
   }
 
-  .u-section-5 .u-container-layout-3 {
-    padding-right: 25px;
+  .u-section-5 .u-text-4 {
+    width: 305px;
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  .u-section-5 .u-image-1 {
-    width: 284px;
-    margin-left: 57px;
+  .u-section-5 .u-container-layout-3 {
+    padding-right: 25px;
   }
 }
 
@@ -1124,15 +1134,25 @@
 
   .u-section-5 .u-layout-wrap-1 {
     width: 720px;
-    margin-bottom: 24px;
   }
 
   .u-section-5 .u-layout-cell-1 {
-    min-height: 100px;
+    min-height: 370px;
+  }
+
+  .u-section-5 .u-text-2 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-5 .u-text-4 {
+    width: auto;
+    margin-left: 32px;
+    margin-right: 32px;
   }
 
   .u-section-5 .u-layout-cell-2 {
-    min-height: 295px;
+    min-height: 354px;
   }
 
   .u-section-5 .u-container-layout-3 {
@@ -1141,7 +1161,7 @@
   }
 
   .u-section-5 .u-image-1 {
-    margin-left: 41px;
+    margin-left: 28px;
   }
 }
 
@@ -1165,7 +1185,6 @@
   }
 
   .u-section-5 .u-layout-wrap-1 {
-    margin-bottom: 23px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
@@ -1182,10 +1201,10 @@
   .u-section-5 .u-container-layout-3 {
     padding-right: 12px;
     padding-left: 12px;
-    padding-bottom: 0;
   }
 
   .u-section-5 .u-image-1 {
+    margin-top: 16px;
     margin-left: auto;
   }
 }
@@ -1198,6 +1217,7 @@
   .u-section-5 .u-group-1 {
     width: 298px;
     min-height: 82px;
+    margin-top: 8px;
   }
 
   .u-section-5 .u-container-layout-1 {
@@ -1206,8 +1226,8 @@
   }
 
   .u-section-5 .u-layout-wrap-1 {
-    margin-top: 0;
-    margin-bottom: 60px;
+    margin-top: -4px;
+    margin-bottom: 8px;
     width: auto;
     margin-right: initial;
     margin-left: initial;
@@ -1215,6 +1235,11 @@
 
   .u-section-5 .u-layout-cell-1 {
     min-height: 100px;
+  }
+
+  .u-section-5 .u-text-4 {
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .u-section-5 .u-layout-cell-2 {
@@ -1227,12 +1252,10 @@
   }
 
   .u-section-5 .u-image-1 {
-    margin-top: 22px;
-    margin-right: 14px;
-    margin-bottom: -22px;
+    margin-left: 28px;
   }
 } .u-section-6 {
-  background-image: linear-gradient(0deg, rgba(35,65,82,0.25), rgba(35,65,82,0.25)), url("https://assets.nicepagecdn.com/3ad9e2bf/4630524/images/toothbrush-composition.jpg");
+  background-image: linear-gradient(0deg, rgba(35,65,82,0.25), rgba(35,65,82,0.25)), url("images/toothbrush-composition.jpg");
 }
 
 .u-section-6 .u-sheet-1 {
@@ -1304,7 +1327,7 @@
   }
 
   .u-section-6 .u-sheet-1 {
-    min-height: 400px;
+    min-height: 375px;
   }
 
   .u-section-6 .u-layout-wrap-1 {
@@ -1370,7 +1393,7 @@
 
 @media (max-width: 991px) {
   .u-section-6 .u-sheet-1 {
-    min-height: 239px;
+    min-height: 293px;
   }
 
   .u-section-6 .u-map-1 {
@@ -1417,7 +1440,7 @@
 
 @media (max-width: 767px) {
   .u-section-6 .u-sheet-1 {
-    min-height: 503px;
+    min-height: 528px;
   }
 
   .u-section-6 .u-container-layout-1 {
@@ -1454,7 +1477,7 @@
 
 @media (max-width: 575px) {
   .u-section-6 .u-sheet-1 {
-    min-height: 210px;
+    min-height: 378px;
   }
 
   .u-section-6 .u-layout-cell-1 {
@@ -1504,22 +1527,4 @@
     top: 0;
     z-index: 1000;
     background-color: white;
-}
-
-#whatsapp {
-  position: fixed;
-  bottom: 20px;
-  right:20px;
-}
-
-#whatsapp a svg {
-  width: 80px;
-  filter: drop-shadow(0 1px 4px rgba(0,0,0,.4));
-}
-
-circle {
-  fill: #25d366;
-}
-#whatsapp a svg path {
-  fill: #fff;
 }

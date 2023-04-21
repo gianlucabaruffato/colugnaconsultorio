@@ -42143,18 +42143,14 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 @media (max-width: 767px) {
-  .u-header .u-sheet-1 {
-    min-height: 126px;
-  }
-
   .u-header .u-menu-1 {
     margin-top: -50px;
-    margin-bottom: 60px;
+    margin-bottom: 18px;
   }
 }
 @media (max-width: 575px) {
   .u-header .u-sheet-1 {
-    min-height: 79px;
+    min-height: 68px;
   }
 
   .u-header .u-image-1 {
@@ -42167,18 +42163,18 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-menu-1 {
     margin-top: -58px;
     margin-right: -1px;
-    margin-bottom: 26px;
+    margin-bottom: 15px;
   }
 }
 .u-footer .u-sheet-1 {
-  min-height: 163px;
+  min-height: 181px;
 }
 
 .u-footer .u-group-1 {
   min-height: 128px;
   height: auto;
   width: 308px;
-  margin: 53px auto 0 19px;
+  margin: 53px auto 0;
 }
 
 .u-footer .u-container-layout-1 {
@@ -42188,54 +42184,31 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-footer .u-text-1 {
   background-image: none;
-  margin: 0;
+  margin: 0 0 0 -28px;
 }
 @media (max-width: 1199px) {
   .u-footer .u-group-1 {
-    width: 470px;
+    width: 308px;
     height: auto;
   }
 
-  .u-footer .u-container-layout-1 {
-    padding-left: 49px;
-    padding-right: 49px;
+  .u-footer .u-text-1 {
+    margin-left: -28px;
   }
 }
-@media (max-width: 991px) {
-  .u-footer .u-group-1 {
-    width: 360px;
-  }
 
-  .u-footer .u-container-layout-1 {
-    padding-left: 38px;
-    padding-right: 38px;
-  }
-}
 @media (max-width: 767px) {
-  .u-footer .u-sheet-1 {
-    min-height: 181px;
-  }
-
-  .u-footer .u-group-1 {
-    width: 338px;
-    margin-top: 54px;
-    margin-left: auto;
-  }
-
-  .u-footer .u-container-layout-1 {
-    padding-left: 28px;
-    padding-right: 28px;
+  .u-footer .u-text-1 {
+    width: auto;
+    margin-left: -14px;
+    margin-right: -14px;
   }
 }
 @media (max-width: 575px) {
   .u-footer .u-group-1 {
-    width: 283px;
-    margin-left: 19px;
-  }
-
-  .u-footer .u-container-layout-1 {
-    padding-left: 18px;
-    padding-right: 18px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
   }
 }
 
